@@ -1,3 +1,7 @@
+name: CI
+
+on: push
+
 steps:
   - uses: actions/checkout@v2
   - name: Logseq Publish 🚩
